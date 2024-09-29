@@ -1,0 +1,48 @@
+h2 {
+  text-align: center;
+  margin: 10px 0;
+  color: #333;
+}
+
+.dnd-calendar {
+    padding: 0px 20px;
+}
+
+.calendar-container {
+  padding: 10px;
+  border-radius: 8px;
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff,
+    #bbbbc0,
+    #7a7b86,
+    #3d424f,
+    #030e1f
+  );
+}
+
+.rbc-calendar {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.rbc-btn-group {
+  margin: 10px;
+}
+
+.event-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: small
+}
+
+.delete-btn {
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: small;
+  }
+
+
